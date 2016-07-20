@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<link rel='stylesheet' href='css/jquery-ui.css' />
+	<link rel='stylesheet' href='css/style.css' />
+	<link rel='stylesheet' href='bootstrap/css/bootstrap.css' />
+	<link rel='stylesheet' href='fc/fullcalendar.css' />
+	<script src='fc/lib/jquery.min.js'></script>
+	<script src='fc/lib/moment.min.js'></script>
+	<script src='fc/fullcalendar.js'></script>	
+	<script src='fc/lang/ru.js'></script>	
+	<script src='js/main.js'></script>	
+	<script src='js/jquery-ui.js'></script>	
+</head>
+<body>
+<div bla="title">mytitle</div>
+<div bla="title">mytitle</div>
+<div bla="title">mytitle</div>
+	<div id='calendar'></div>
+	<div id="dialog">
+		<form>
+			<div class="form-group">
+				<label for="label">Задача</label>
+				<input type="text" class="form-control" id="label" placeholder="Введите задачу">
+			</div>
+			<div class="form-group">
+				<label for="start">Начало</label>
+				<input type="text" class="form-control" id="start" placeholder="Начало события">
+			</div>
+			<div class="form-group">
+				<label for="end">Окончание</label>
+				<input type="text" class="form-control" id="end" placeholder="Окончание события">
+			</div>
+			<button type="submit" class="btn btn-success">Добавить</button>
+		</form>
+	</div>
+</body>
+</html>
