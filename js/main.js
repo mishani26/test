@@ -1,4 +1,4 @@
-var array3=[],asd,main;
+var array3=[];
 for (var i = 0; i < localStorage.length; i++) {
 	var mov=localStorage.getItem(localStorage.key(i)) ;
 	var array=JSON.parse(mov);
